@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#check if the NUMBER is greater than 10 or not
-
+# check if the NUMBER is greater than 10 or not
 NUMBER=$1
-if [ $NUMBER -gt 10]
-    then
+
+if [ $NUMBER -gt 10 ]
+then
         echo "$NUMBER is greater than 10"
-    else
+else
         echo "$NUMBER is not greater than 10"
 fi
